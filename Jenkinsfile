@@ -5,7 +5,7 @@ pipeline {
         stage('Pull Code') {
             steps {
                 // Clone the repository from GitHub
-                git branch: 'main', url: 'https://github.com/jaydeep123s/Gravity-web.git'
+                git branch: 'main', url: 'https://github.com/jaydeep123s/clone-comany.git'
             }
         }
 
